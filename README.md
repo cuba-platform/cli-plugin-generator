@@ -7,8 +7,7 @@ Adds `create-plugin` command to [CUBA CLI](https://github.com/cuba-platform/cuba
 
 ## Installation
 
-1. Clone repository
-1. Launch gradle task `installPlugin`
+1. Copy .jar file into `~/.haulmont/cli/plugins/` directory.
 1. Start `cuba-cli`
 
 It will print loaded plugins:
