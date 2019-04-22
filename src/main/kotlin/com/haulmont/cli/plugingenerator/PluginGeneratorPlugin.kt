@@ -7,7 +7,7 @@ import com.haulmont.cuba.cli.ResourcesPath
 import com.haulmont.cuba.cli.event.InitPluginEvent
 
 class PluginGeneratorPlugin : CliPlugin {
-    override val apiVersion: Int = 4
+    override val apiVersion: Int = 5
 
     override val resources: ResourcesPath = HasResources("/com/haulmont/cli/plugingenerator/")
 
